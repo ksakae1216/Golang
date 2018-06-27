@@ -8,14 +8,15 @@ import (
 
 func main() {
 
-	nyuumonFunc() // 入門編
+	// nyuumonFunc() // 入門編
 	// funcpkg.IfFunc() // if文
 	// funcpkg.SwitchFunc("Java") // switch文
 	// funcpkg.ForFunc() // for文
 	// funcpkg.PointerFunc() // ポインタ
 	// funcpkg.ReceiverFunc() // レシーバー
 	// funcpkg.StructFunc() // 構造体
-	funcpkg.AboutFunc() // 関数いろいろ
+	// funcpkg.AboutFunc() // 関数いろいろ
+	funcpkg.InterfaceFunc()	// インターフェース
 }
 
 // 入門編
