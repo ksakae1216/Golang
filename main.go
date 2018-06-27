@@ -16,7 +16,8 @@ func main() {
 	// funcpkg.ReceiverFunc() // レシーバー
 	// funcpkg.StructFunc() // 構造体
 	// funcpkg.AboutFunc() // 関数いろいろ
-	funcpkg.InterfaceFunc()	// インターフェース
+	// funcpkg.InterfaceFunc() // インターフェース
+	funcpkg.SliceFunc() // スライス
 }
 
 // 入門編
