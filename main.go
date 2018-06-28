@@ -17,7 +17,8 @@ func main() {
 	// funcpkg.StructFunc() // 構造体
 	// funcpkg.AboutFunc() // 関数いろいろ
 	// funcpkg.InterfaceFunc() // インターフェース
-	funcpkg.SliceFunc() // スライス
+	// funcpkg.SliceFunc() // スライス
+	funcpkg.MapFunc()	// マップ
 }
 
 // 入門編
