@@ -21,7 +21,8 @@ func main() {
 	// funcpkg.MapFunc()	// マップ
 	// funcpkg.ErrHundleFunc() // エラー処理
 	// funcpkg.PanicFunc()    // パニック
-	funcpkg.RecoveryFunc() // リカバリ
+	// funcpkg.RecoveryFunc() // リカバリ
+	funcpkg.GoroutinFunc() // ゴルーチン
 }
 
 // 入門編
