@@ -19,7 +19,9 @@ func main() {
 	// funcpkg.InterfaceFunc() // インターフェース
 	// funcpkg.SliceFunc() // スライス
 	// funcpkg.MapFunc()	// マップ
-	funcpkg.ErrHundleFunc() // エラー処理
+	// funcpkg.ErrHundleFunc() // エラー処理
+	// funcpkg.PanicFunc()    // パニック
+	funcpkg.RecoveryFunc() // リカバリ
 }
 
 // 入門編
