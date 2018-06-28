@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// PanicFunc エラー処理のサンプルです
+// PanicFunc panicのサンプルです
 // ポイント
 // panicが発生すると以降のコードは実行されません。
 // 但し、deferはpanicが発生しても実行されます。
