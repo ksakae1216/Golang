@@ -20,9 +20,9 @@ func SyncFunc()  {
 		wg.Add(1)	
 
 		go func(cnt int) {
-			fmt.Println("%d start", cnt)
+			fmt.Println("start", cnt)
 			time.Sleep(1 * time.Millisecond)
-			fmt.Println("%d end", cnt)
+			fmt.Println("end", cnt)
 
 			wg.Done()
 		}(i)
