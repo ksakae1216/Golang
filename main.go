@@ -22,7 +22,10 @@ func main() {
 	// funcpkg.ErrHundleFunc() // エラー処理
 	// funcpkg.PanicFunc()    // パニック
 	// funcpkg.RecoveryFunc() // リカバリ
-	funcpkg.GoroutinFunc() // ゴルーチン
+	// funcpkg.GoroutinFunc() // ゴルーチン
+	// funcpkg.ChanelFunc() // チャネル
+	// funcpkg.SelectFunc() // select文
+	funcpkg.SyncFunc() // 同期
 }
 
 // 入門編
